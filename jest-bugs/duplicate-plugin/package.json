@@ -1,0 +1,27 @@
+{
+  "name": "duplicate-plugin",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "7.x",
+    "@babel/plugin-proposal-class-properties": "^7.3.4",
+    "@babel/plugin-proposal-object-rest-spread": "^7.3.4",
+    "@babel/plugin-syntax-dynamic-import": "7.2.x",
+    "@babel/plugin-transform-typescript": "7.3.x",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-jest": "24.x",
+    "babel-plugin-angularjs-annotate": "^0.10.0",
+    "jest": "24.x",
+    "typescript": "^3.3.3333",
+    "@types/jest": "^24.0.9"
+  },
+  "dependencies": {
+
+  },
+  "scripts": {
+    "tsc": "tsc",
+    "test": "jest"
+  }
+}

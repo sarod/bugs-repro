@@ -1,0 +1,26 @@
+{
+    "passPerPreset": true,
+    "presets": [
+        [
+            "@babel/env",
+            {
+                "modules": false
+            }
+        ],
+        "@babel/react"
+    ],
+    "compact": true,
+    "plugins": [
+        "angularjs-annotate",
+        "@babel/plugin-syntax-dynamic-import",
+        "@babel/plugin-proposal-class-properties",
+        "@babel/plugin-proposal-object-rest-spread",
+
+        [
+            "@babel/plugin-transform-typescript",
+            {
+                "isTSX": true
+            }
+        ]
+    ],
+}
