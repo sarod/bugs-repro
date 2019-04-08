@@ -1,0 +1,5 @@
+{
+    "python.pythonPath": ".python_env/bin/python",
+    "git.ignoreLimitWarning": true,
+    "python.linting.pylintEnabled": true
+}

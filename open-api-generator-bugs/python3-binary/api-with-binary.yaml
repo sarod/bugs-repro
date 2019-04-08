@@ -1,0 +1,32 @@
+openapi: 3.0.0
+servers:
+  - url: http://127.0.0.1:10081/api/rest
+info:
+  version: "1.0.0"
+  title: Title
+  description: Desc
+security:
+- basicAuth: []
+paths:  
+  /admin/image-libraries/{name}:
+    parameters:
+    - name: name
+      in: path
+      description: Image library name
+      required: true
+      schema:
+        type: string
+    put:
+      operationId: importImageLibrary
+      summary: Import image library      
+      requestBody:
+        description: Image library contents (zip)
+        required: true
+        content:
+          application/octet-stream:
+            schema:
+              type: string
+              format: zip
+      responses:
+        '200':
+          description: OK       
