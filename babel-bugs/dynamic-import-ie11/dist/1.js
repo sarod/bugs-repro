@@ -1,0 +1,1 @@
+(window.webpackJsonpmain=window.webpackJsonpmain||[]).push([[1],{70:function(n,o,a){"use strict";a.r(o),a.d(o,"exportedConst",function(){return e}),console.log("dynamically-imported");var e="What a wonderful package"}}]);
