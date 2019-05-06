@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <option name="DEFAULT_COMPILER" value="Eclipse" />
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ecj-filer-exception" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="EclipseCompilerSettings">
+    <option name="ECJ_TOOL_PATH" value="$MAVEN_REPOSITORY$/org/eclipse/jdt/ecj/3.17.0/ecj-3.17.0.jar" />
+    <option name="ADDITIONAL_OPTIONS_STRING" value="-verbose" />
+  </component>
+</project>
