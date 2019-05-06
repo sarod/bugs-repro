@@ -1,7 +1,8 @@
-# How to reproduce
+How to reproduce
+==================
 
-
-##  Using Maven
+Using Maven
+-----------
 Run the following commands
 
 Compile the project
@@ -29,8 +30,8 @@ However it did not generate the class files and it issued the warning
 Could not write generated class bugs.repro.AutoValue_MyDataClass: javax.annotation.processing.FilerException: Source file already exists : bugs.repro.AutoValue_MyDataClass
 ```
 
-## Using intellij
-
+Using intellij
+-----------
 1. Open the project using intellij community edition.
 2. Build the whole project using "Build">"Rebuild Project".
 3. Open the file src/main/java/bugs/repro/MyDataClass.java
